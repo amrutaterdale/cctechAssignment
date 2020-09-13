@@ -1,0 +1,37 @@
+
+
+<body>
+    <header id="h">
+        <h4>Gallery</h4>
+    </header>
+
+<div class="example-btn-row">
+    <input  type="file" #image accept="image/*" [(ngModel)]="model.img" (change)="onFileSelected($event.target.files)">  
+</div>
+
+<!-- {{allimage|json}} -->
+
+<!-- <div *ngFor="let a of allimage"  > -->
+  <!-- {{a.id}} -->
+  <div class="container">
+
+  
+  <tr class="row" >
+     <div *ngFor="let a of allimage"  >
+        
+   <td class="col-lg-4,col-lg-4,col-lg-4">
+            <img height=200 [src]="a.img">
+          </td>
+        </div>
+        </tr>
+      </div>
+  
+
+
+
+
+<footer id="f">
+  <h4>FullStack Challange-2020</h4>
+</footer>
+</body>
+

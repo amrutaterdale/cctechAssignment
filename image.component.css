@@ -1,0 +1,72 @@
+/* .container
+{
+    display:grid;
+    grid-auto-rows: 200px;
+    grid-gap:10px;
+    padding:10px;
+    
+} */
+body{
+    background-color: #e2e8f0;
+    font-family: verdana;
+}
+
+#h
+{
+    background: #2c5282;
+    text-align: center;
+    color: white;
+
+}
+
+.upload-btn-wrapper
+{
+    position:relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-left:16.6cm;
+} 
+
+.upload-btn-wrapper input[type=file]
+{
+    position: absolute;
+    font-size: 80px;
+    left:0;
+    top:0;
+    opacity:0;
+}
+
+.btn{
+border:2px solid gray;
+background-color:white;
+color:gray;
+padding: 8px 20px;
+border-radius: 8px;
+font-size: 20px;
+font-weight: bold;
+}
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+#f
+{
+    background: #2c5282;
+    width:100%;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+h4
+{
+    font-family: verdana;
+}
