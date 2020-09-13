@@ -6,7 +6,7 @@
     </header>
 
 <div class="example-btn-row">
-    <input  type="file" #image accept="image/*" [(ngModel)]="model.img" (change)="onFileSelected($event.target.files)">  
+    <input  type="file" #image accept="image/*" title="only accepts images not other file type" [(ngModel)]="model.img" (change)="onFileSelected($event.target.files)">  
 </div>
 
 <!-- {{allimage|json}} -->
